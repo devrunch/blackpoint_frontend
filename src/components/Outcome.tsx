@@ -34,13 +34,13 @@ const Outcome = () => {
     ];
     return (
         <>
-            <div className="bg-gray-900 p-10 ">
+            <div className="bg-gray-200 p-10 ">
 
                 <div className="mt-16 md:mt-0">
-                    <h2 className="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+                    <h2 className=" text-gray-900 text-4xl lg:text-5xl font-bold lg:tracking-tight">
                         Analysis Outcome
                     </h2>
-                    <p className="text-lg mt-4 text-slate-200">
+                    <p className="text-lg mt-4 text-slate-900">
                         What are the problems and the causes that these accident occur.
                     </p>
                 </div>

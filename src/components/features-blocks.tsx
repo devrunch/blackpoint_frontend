@@ -18,13 +18,13 @@ export default function Features() {
   }, []) 
 
   return (
-    <section className="relative bg-gray-900 mb-4" >
+    <section className="relative bg-gray-200 mb-4" >
       <div className="absolute inset-0 pointer-events-none mb-16" aria-hidden="true"></div>
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h-10 text-4xl font-extrabold mb-4">SITE INVESTIGATION</h1>
-            <p className="text-xl text-gray-300">Your inputs aid in comprehensive accident analysis, leading to better understanding and prevention strategies for safer road</p>
+            <h1 className="h-10 text-4xl font-extrabold mb-4 text-gray-900">SITE INVESTIGATION</h1>
+            <p className="text-xl text-gray-900">Your inputs aid in comprehensive accident analysis, leading to better understanding and prevention strategies for safer road</p>
           </div>
 
           {/* Section content */}
@@ -33,7 +33,7 @@ export default function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="font-bold text-xl mb-3">STEPS TO DOCUMENT THE SPOT WITH PHOTOGRAPGS</h3>
+                <h3 className="font-bold text-xl mb-3 text-gray-900">STEPS TO DOCUMENT THE SPOT WITH PHOTOGRAPGS</h3>
               
               </div>
               {/* Tabs buttons */}
@@ -44,10 +44,8 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    {/* <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div> */}
                     <div className="text-gray-200">
                       <ul className='list-disc ml-3'>
-                        {/* <li className='font-bold'>Upload</li> */}
                         <li>Capture Overview shots</li>
                         <li>Record landmarks and feature</li>
                         <li>Road condition and debris</li>

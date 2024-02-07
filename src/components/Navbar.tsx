@@ -17,11 +17,11 @@ const Navbar = () => {
             <div className="container mx-auto px-6 flex items-center justify-between">
                 <div className="uppercase flex text-gray-900 font-black text-3xl">
                     <img src={logo} className="w-9 h-9 rounded-lg mr-2"alt="" />
-                    BLACKINFO
+                    <a href="/">BLACKINFO</a>
                 </div>
                 <div className="flex items-center">
                     <nav className="font-sen text-gray-800   uppercase text-lg lg:flex items-center hidden">
-                        <a href="#" className="py-2 px-6 flex">
+                        <a href="/identification" className="py-2 px-6 flex">
                             Identification
                         </a>
                         <a href="#" className="py-2 px-6 flex">

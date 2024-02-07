@@ -1,4 +1,5 @@
 import Hero_img from '../assets/images/hero_image.png'
+import TiltComponent from './tiltComponent'
 const Hero = () => {
   return (
     <div className="bg-gray-200 flex relative z-20 items-center overflow-hidden">
@@ -15,24 +16,20 @@ const Hero = () => {
           <div className="flex mt-8">
             <a
               href="#"
-              className="uppercase py-2 px-4 rounded-lg bg-blue-900 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400"
+              className="uppercase py-2 px-4 rounded-lg bg-blue-900 border-2 border-transparent text-white text-md mr-4 hover:bg-blue-400"
             >
               Upload file
             </a>
             <a
-              href="#"
-              className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 dark:text-white hover:bg-pink-500 hover:text-white text-md"
+              href="/form"
+              className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-blue-500 text-blue-500  hover:bg-blue-500 hover:text-white text-md"
             >
               Manual Entry
             </a>
           </div>
         </div>
         <div className="hidden sm:block sm:w-1/3 lg:w-1/2 relative">
-          <img
-            src={Hero_img}
-            className="max-w-64 md:max-w-64 m-auto"
-            alt="Illustration"
-          />
+          <TiltComponent/>
         </div>  
       </div>
     </div>

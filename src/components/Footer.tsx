@@ -2,24 +2,24 @@ const FooterMain = () => {
     return (
         <>
 
-            <div className="flex flex-col mx-3 bg-gray-900 rounded-lg">
+            <div className="flex flex-col bg-gray-200 ">
                 <div className="w-full draggable">
                     <div className="container flex flex-col mx-auto">
                         <div className="flex flex-col items-center w-full my-20">
                             <span className="mb-8">
-                            <div className="uppercase text-gray-900 font-black text-3xl">
+                            <div className="uppercase text-gray-600 font-black text-3xl">
                     BLACKINFO
                 </div>
                             </span>
                             <div className="flex flex-col items-center gap-6 mb-8">
                                 <div className="flex flex-wrap items-center justify-center gap-5 lg:gap-12 gap-y-3 lg:flex-nowrap text-dark-grey-900">
-                                    <a href="javascript:void(0)" className="text-gray-600 hover:text-gray-900">About</a>
-                                    <a href="javascript:void(0)" className="text-gray-600 hover:text-gray-900">Features</a>
-                                    <a href="javascript:void(0)" className="text-gray-600 hover:text-gray-900">Blog</a>
-                                    <a href="javascript:void(0)" className="text-gray-600 hover:text-gray-900">Resources</a>
-                                    <a href="javascript:void(0)" className="text-gray-600 hover:text-gray-900">Partners</a>
-                                    <a href="javascript:void(0)" className="text-gray-600 hover:text-gray-900">Help</a>
-                                    <a href="javascript:void(0)" className="text-gray-600 hover:text-gray-900">Terms</a>
+                                    <a href="javascript:void(0)" className="text-gray-900 hover:text-gray-900">About</a>
+                                    <a href="javascript:void(0)" className="text-gray-900 hover:text-gray-900">Features</a>
+                                    <a href="javascript:void(0)" className="text-gray-900 hover:text-gray-900">Blog</a>
+                                    <a href="javascript:void(0)" className="text-gray-900 hover:text-gray-900">Resources</a>
+                                    <a href="javascript:void(0)" className="text-gray-900 hover:text-gray-900">Partners</a>
+                                    <a href="javascript:void(0)" className="text-gray-900 hover:text-gray-900">Help</a>
+                                    <a href="javascript:void(0)" className="text-gray-900 hover:text-gray-900">Terms</a>
                                 </div>
                                 <div className="flex items-center gap-8">
                                     <a href="javascript:void(0)" className="text-grey-700 hover:text-grey-900">
