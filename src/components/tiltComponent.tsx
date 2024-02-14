@@ -3,7 +3,6 @@ import Hero_img from '../assets/images/hero_image2.jpg'
 
  
 const TiltComponent = (
-    Ele:any
 ) => {
     return (
         <Tilt glareEnable={false} tiltMaxAngleX={10} 

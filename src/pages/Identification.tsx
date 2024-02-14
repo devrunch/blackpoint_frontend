@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import Dropzone from '../components/DropZone';
 import Card from '../components/Card';
 import heatm from '../assets/images/heatmap.png'

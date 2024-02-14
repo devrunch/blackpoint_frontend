@@ -1,4 +1,3 @@
-import Hero_img from '../assets/images/hero_image.png'
 import TiltComponent from './tiltComponent'
 const Hero = () => {
   return (
